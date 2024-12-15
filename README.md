@@ -106,7 +106,7 @@ Key Features:
 
    ```sh
    git clone https://github.com/jonathan-d-nguyen/dev_bootstrap.git
-   cd oci-aws-dev-env
+   cd dev_bootstrap.git
    ```
 
 2. Run the bootstrap script
