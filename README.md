@@ -271,15 +271,15 @@ Project Link: [https://github.com/jonathan-d-nguyen/dev_bootstrap](https://githu
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/your-username/oci-aws-dev-env.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/jonathan-d-nguyen/dev_bootstrap.svg?style=for-the-badge
 [contributors-url]: https://github.com/jonathan-d-nguyen/dev_bootstrap/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/your-username/oci-aws-dev-env.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/jonathan-d-nguyen/dev_bootstrap.svg?style=for-the-badge
 [forks-url]: https://github.com/jonathan-d-nguyen/dev_bootstrap/network/members
-[stars-shield]: https://img.shields.io/github/stars/your-username/oci-aws-dev-env.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/jonathan-d-nguyen/dev_bootstrap.svg?style=for-the-badge
 [stars-url]: https://github.com/jonathan-d-nguyen/dev_bootstrap/stargazers
-[issues-shield]: https://img.shields.io/github/issues/your-username/oci-aws-dev-env.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/jonathan-d-nguyen/dev_bootstrap.svg?style=for-the-badge
 [issues-url]: https://github.com/jonathan-d-nguyen/dev_bootstrap/issues
-[license-shield]: https://img.shields.io/github/license/your-username/oci-aws-dev-env.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/jonathan-d-nguyen/dev_bootstrap.svg?style=for-the-badge
 [license-url]: https://github.com/jonathan-d-nguyen/dev_bootstrap/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/your-username
