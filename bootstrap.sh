@@ -103,8 +103,8 @@ main() {
     
     echo -e "${GREEN}Setup complete!${NC}"
     echo -e "\nNext steps:"
-    echo "1. Copy your API key fingerprint shown above"
-    echo "2. Upload your API public key to OCI console (Identity & Security > Users > API Keys)"
+    echo "1. Copy your API public key shown above (-----BEGIN PUBLIC KEY-----...)"
+    echo "2. Upload your API public key to OCI console (Identity & Security > Users > API Keys OR Profile > Resources > API Keys)"
     echo "3. Get your tenancy OCID from OCI console (Profile > Tenancy)"
     echo "4. Get your user OCID from OCI console (Profile > User Settings)"
     echo "5. Edit ~/workspace/terraform/terraform.tfvars.template with your values and rename to terraform.tfvars"
