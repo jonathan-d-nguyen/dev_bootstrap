@@ -106,7 +106,7 @@ Key Features:
 
    ```sh
    git clone https://github.com/jonathan-d-nguyen/dev_bootstrap.git
-   cd dev_bootstrap.git
+   cd dev_bootstrap
    ```
 
 2. Run the bootstrap script
