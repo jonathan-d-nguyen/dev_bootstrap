@@ -61,7 +61,7 @@ deploy_infrastructure() {
   terraform plan -var-file="$tfvars_file"
   terraform apply -var-file="$tfvars_file" -auto-approve
   echo -e "${GREEN}Infrastructure deployment complete!${NC}"
-  terraform output instance_public_ip > instance_ip.txt
+  terraform output -raw instance_public_ip > instance_ip.txt
   echo "Instance IP: $(cat instance_ip.txt)"
 }
 
