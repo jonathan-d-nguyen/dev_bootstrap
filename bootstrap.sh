@@ -1,5 +1,14 @@
 #!/bin/bash
 # bootstrap.sh - Initial setup script
+# runs ON local machine
+
+# # Local environment preparation script
+# - Creates workspace directories
+# - Generates SSH keys (~/.ssh/oci_key)
+# - Generates OCI API keys (~/.oci/oci_api_key.pem)
+# - Displays public key and fingerprint for OCI console
+# - Sets up Terraform locally
+
 
 # Exit on any error
 set -e

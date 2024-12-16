@@ -1,5 +1,16 @@
 #!/bin/bash
 # setup.sh
+# runs ON the remote instance
+
+# System configuration script that runs ON the remote instance
+# - Updates system packages
+# - Installs core tools: git, curl, wget, tmux, zsh, unzip, jq, docker
+# - Installs and configures AWS CLI
+# - Installs Terraform
+# - Configures Docker for ubuntu user
+# - Sets up Oh My Zsh
+# - Adds useful aliases to .zshrc
+
 
 # Update system
 apt update && apt upgrade -y
@@ -11,6 +22,11 @@ apt install -y git curl wget tmux zsh unzip jq docker.io
 curl "https://awscli.amazonaws.com/awscli-exe-linux-aarch64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 ./aws/install
+
+# Add to setup.sh after AWS CLI installation
+mkdir -p /home/ubuntu/.aws
+chown ubuntu:ubuntu /home/ubuntu/.aws
+chmod 700 /home/ubuntu/.aws
 
 # Install Terraform
 apt-get update && apt-get install -y gnupg software-properties-common

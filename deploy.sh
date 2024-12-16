@@ -1,5 +1,15 @@
 #!/bin/bash
 # deploy2.sh - Infrastructure deployment script with modularity
+# runs FROM local machine
+
+# Local deployment orchestration script; 
+# - Downloads infrastructure code from GitHub
+# - Validates directory structure
+# - Handles tfvars file management
+# - Runs Terraform commands (init, plan, apply)
+# - Captures instance IP to instance_ip.txt
+# - Contains error handling and color output
+
 
 # Exit on any error
 set -e
